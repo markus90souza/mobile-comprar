@@ -6,7 +6,11 @@ import type { FC } from "react";
 type InputProps = TextInputProps
 const Input: FC<InputProps> = ({ ...rest }) => {
   return (
-    <TextInput style={styles.container} {...rest} />
+    <TextInput    
+      style={styles.container}
+      placeholderTextColor="#74798B"
+      {...rest} 
+    />
   )
 }
 
